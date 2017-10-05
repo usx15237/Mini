@@ -1,0 +1,34 @@
+
+.head image{
+  width: 100%;
+}
+
+.middel{
+  display: flex;
+  flex-direction: row;
+}
+.middle image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.middle text{
+  font-weight: normal;
+}
+.auth,.time{
+  color: red;
+}
+
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  border-top: solid 1px #ededed;
+  justify-content: flex-end;
+}
+.icon image{
+margin-right: 50rpx;
+margin-bottom: 20rpx;
+margin-top: 20rpx;
+width:100rpx;
+height: 105rpx;
+}

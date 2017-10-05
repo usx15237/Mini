@@ -1,0 +1,9 @@
+@import "/pages/movies/movie-list/movie-list.wxss";
+.pagecontainer{
+  background-color: #f2f2f2;
+}
+
+.list{
+  background-color: white;
+  margin-bottom: 60rpx;
+}

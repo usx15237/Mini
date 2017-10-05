@@ -1,7 +1,7 @@
 <view class="container">
   <image class="img" src="./imgs/img.jpg"></image>
   <text class="user_name">Hello zhq</text>
-  <view class="mote_container">
+  <view class="mote_container" bindtap="onTap">
     <text class="moto">开启小程序之路</text>
   </view>
 </view>

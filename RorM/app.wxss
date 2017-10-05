@@ -1,4 +1,10 @@
+/*设置通用样式*/
 text{
   font-family:MicroSoft Yahei;
   font-weight: bold;
+  color: #666
+}
+.container{
+  display: flex;
+  flex-direction: column;
 }

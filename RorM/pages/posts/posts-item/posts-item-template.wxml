@@ -1,0 +1,10 @@
+<template name="postsItem">
+    <view class="news">
+      <view class="head">
+        <image src="{{img.authimg}}"></image>
+        <text>{{index}} {{"from "+date}}</text>
+      </view>
+      <image class="backimg" src="{{img.backimg}}"></image>
+      <text>{{text}}</text>
+    </view>
+</template>

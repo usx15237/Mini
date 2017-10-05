@@ -1,0 +1,29 @@
+@import "/pages/movies/movie/movie.wxss";
+
+.listcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.headcontainer .header {
+  margin-left: 20rpx;
+  margin-right: 450rpx;
+}
+
+.headcontainer image {
+  width: 15px;
+  height: 15px;
+  margin-top: 10rpx;
+}
+
+.moviescontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60rpx;
+}

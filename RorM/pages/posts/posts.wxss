@@ -1,0 +1,15 @@
+@import "posts-item/posts-item-template.wxss";
+/*获取css模板,注意获取模板用的是@import，获取数据源用的是require.js*/
+
+swiper{
+  height: 450rpx
+}
+
+swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+ 

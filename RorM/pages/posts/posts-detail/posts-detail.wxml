@@ -1,0 +1,17 @@
+<view class="container">
+<view class="head">
+<image src="{{postData.detail_img.backimg}}"></image>
+</view>
+<view class="middle">
+<image src="{{postData.detail_img.authimg}}"></image>
+<text class="auth">{{postData.detail_auth}}</text>
+<text>    发表于   </text>
+<text class="time">{{postData.detail_time}}</text>
+</view>
+<view class="icon">
+<image wx:if="{{collect}}" catchtap='onCollect'  src="/pages/posts/imgs/collection.png"></image>
+<image wx:else catchtap='onCollect' src="/pages/posts/imgs/collection-anti.png"></image>
+<image src="/pages/posts/imgs/share.png" catchtap='onShare'></image>
+</view>
+<text class="detail">{{postData.detail_text}} ​​​​</text>
+</view>

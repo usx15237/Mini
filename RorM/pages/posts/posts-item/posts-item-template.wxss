@@ -1,0 +1,13 @@
+.head image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.backimg{
+  width: 100%;
+}
+
+.news{
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}

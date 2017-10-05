@@ -1,0 +1,15 @@
+<import src="/pages/movies/movie/movie.wxml" />
+<template name="movieListTemplate">
+  <view class="listcontainer">
+    <view class="headcontainer">
+      <text class="header">正在热映</text>
+      <text>更多</text>
+      <image src="/pages/movies/imgs/arrow-right.png"></image>
+    </view>
+    <view class="moviescontainer">
+      <block wx:for="{{movies}}" wx:for-item="item">
+        <template is="movieTemplate" data="{{...item}}" />
+      </block>
+    </view>
+  </view>
+</template>

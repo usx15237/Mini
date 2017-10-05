@@ -1,0 +1,13 @@
+<template name="starsTemplate">
+  <!--不要直接用container，import可能导致样式覆盖-->
+  <view class="stars-container">
+    <view class="stars">
+      <image src="/pages/movies/imgs/star.png"></image>
+      <image src="/pages/movies/imgs/star.png"></image>
+      <image src="/pages/movies/imgs/star.png"></image>
+      <image src="/pages/movies/imgs/star.png"></image>
+      <image src="/pages/movies/imgs/star.png"></image>
+      <text class="score">{{average}}</text>
+    </view>
+  </view>
+</template>
