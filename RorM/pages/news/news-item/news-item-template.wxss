@@ -1,0 +1,17 @@
+.newcontainer{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
+.newcontainer image{
+  margin: 10rpx;
+  width:460rpx;
+  height:260rpx;
+}
+
+.newcontainer text{
+  margin-left: 20rpx;
+}

@@ -2,7 +2,7 @@
 <template name="movieListTemplate">
   <view class="listcontainer">
     <view class="headcontainer">
-      <text class="header">正在热映</text>
+      <text class="header">{{tag}}</text>
       <text>更多</text>
       <image src="/pages/movies/imgs/arrow-right.png"></image>
     </view>

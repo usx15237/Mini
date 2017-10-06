@@ -1,0 +1,6 @@
+<import src="news-item/news-item-template.wxml" />
+
+
+<block wx:for="{{contentkey}}" wx:for-item="item">
+  <template is="newsItem" data="{{...item}}" />
+</block>
