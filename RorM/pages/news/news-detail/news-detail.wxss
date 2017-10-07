@@ -1,0 +1,22 @@
+.question-title text{
+  color: green;
+  font-size: 60rpx;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-top: 20rpx;
+}
+
+.author text{
+  display: inline;
+  color:red;
+}
+
+.content-image{
+  margin-left: 60rpx;
+}
+

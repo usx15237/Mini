@@ -14,7 +14,7 @@
   </swiper>
 <block wx:for="{{contentkey}}" wx:for-item="item">
 <view catchtap="onPostTap" data-postId="{{item.postId}}">
- <template is="postsItem" data="{{...item}}" catchtap="onPostTap"/>
+ <template is="postsItem" data="{{...item}}" />
  </view>
 </block>
 </view>

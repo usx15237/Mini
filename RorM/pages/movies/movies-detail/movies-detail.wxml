@@ -1,0 +1,2 @@
+<!--pages/movies/movies-detail/movies-detail.wxml-->
+<text>{{movie.year}}</text>

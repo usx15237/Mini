@@ -8,7 +8,7 @@
     </view>
     <view class="moviescontainer">
       <block wx:for="{{movies}}" wx:for-item="item">
-        <template is="movieTemplate" data="{{...item}}" />
+          <template is="movieTemplate" data="{{...item}}"/>
       </block>
     </view>
   </view>

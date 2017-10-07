@@ -1,6 +1,9 @@
 <template name="newsItem">
-  <view class="newcontainer">
-    <image src="{{newsImage}}"></image>
-    <text>{{title}}</text>
+  <view catchtap='onNewTap' data-newId="{{newsId}}">
+    <view class="newcontainer">
+      <image src="{{newsImage}}"></image>
+      <text>{{title}}</text>
+      <text>{{newsId}}</text>
+    </view>
   </view>
-</template>
+ </template>

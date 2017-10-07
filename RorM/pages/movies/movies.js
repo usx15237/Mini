@@ -48,4 +48,10 @@ Page({
     this.getMovieList(comingSoonUrl, "comingSoon","即将上映");
     this.getMovieList(top250Url, "top250","Top250");
   },
+  onMovieTap:function(event){
+    var movieId = event.currentTarget.dataset.movieid;
+    wx.navigateTo({
+      url: './movies-detail/movies-detail?id=' + movieId
+    })
+  }
 })

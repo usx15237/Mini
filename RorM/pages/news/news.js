@@ -39,4 +39,10 @@ Page({
    
     this.getNewsList(newsList);
   },
+  onNewTap: function (event) { 
+    var newId = event.currentTarget.dataset.newid;
+    wx.navigateTo({
+      url: './news-detail/news-detail?id=' + newId
+    })
+  }
 })
