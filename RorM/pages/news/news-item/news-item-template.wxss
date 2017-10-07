@@ -7,11 +7,14 @@
 }
 
 .newcontainer image{
-  margin: 10rpx;
-  width:460rpx;
+  margin: 10rpx; 
+  width:300rpx;
   height:260rpx;
 }
 
-.newcontainer text{
-  margin-left: 20rpx;
+.vtext{
+  width:400rpx;
+}
+text{
+  color: black;
 }

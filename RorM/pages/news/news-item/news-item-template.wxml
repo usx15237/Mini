@@ -2,8 +2,7 @@
   <view catchtap='onNewTap' data-newId="{{newsId}}">
     <view class="newcontainer">
       <image src="{{newsImage}}"></image>
-      <text>{{title}}</text>
-      <text>{{newsId}}</text>
+      <view class="vtext"><text>{{title}}</text></view>
     </view>
   </view>
  </template>
